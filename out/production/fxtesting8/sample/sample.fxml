@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane  fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="717.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button disable="true" layoutX="606.0" layoutY="454.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="99.0" text="NextMove" fx:id="NextMoveB" onAction="#NextMoveClick"/>
+
+       <TextArea editable="false" wrapText="true" layoutX="14.0" layoutY="14.0" prefHeight="171.0" prefWidth="169.0" fx:id="P1" />
+       <TextArea editable="false" wrapText="true" layoutX="190.0" layoutY="14.0" prefHeight="171.0" prefWidth="169.0" fx:id="P2"/>
+       <TextArea editable="false" wrapText="true" layoutX="365.0" layoutY="14.0" prefHeight="171.0" prefWidth="169.0" fx:id="P3"/>
+       <TextArea editable="false" wrapText="true" layoutX="14.0" layoutY="193.0" prefHeight="171.0" prefWidth="169.0" fx:id="P4"/>
+       <TextArea editable="false" wrapText="true" layoutX="190.0" layoutY="193.0" prefHeight="171.0" prefWidth="169.0" fx:id="P5"/>
+       <TextArea editable="false" wrapText="true" layoutX="365.0" layoutY="193.0" prefHeight="171.0" prefWidth="169.0" fx:id="P6"/>
+
+       <TextArea editable="false" wrapText="true" layoutX="9.0" layoutY="372.0" prefHeight="164.0" prefWidth="583.0" fx:id="Inf"/>
+
+      <Button layoutX="606.0" layoutY="372.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="99.0" text="StartGame" fx:id="StartGameB" onAction="#StartGameClick"/>
+      <Label layoutX="575.0" layoutY="170.0" text="MafiaGame" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
